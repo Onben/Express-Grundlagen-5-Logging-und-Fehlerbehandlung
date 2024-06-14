@@ -1,0 +1,208 @@
+GET http://localhost:3000/: {
+  "Network": {
+    "addresses": {
+      "local": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 58908
+      },
+      "remote": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 3000
+      }
+    }
+  },
+  "Request Headers": {
+    "user-agent": "PostmanRuntime/7.39.0",
+    "accept": "*/*",
+    "postman-token": "a2e9aecb-2d48-400e-b995-ad04a027438d",
+    "host": "localhost:3000",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive"
+  },
+  "Response Headers": {
+    "x-powered-by": "Express",
+    "content-type": "text/html; charset=utf-8",
+    "content-length": "26",
+    "etag": "W/\"1a-h7uNTHnyEC5O30LbQ+mCJ1+ortQ\"",
+    "date": "Fri, 14 Jun 2024 19:42:52 GMT",
+    "connection": "keep-alive",
+    "keep-alive": "timeout=5"
+  },
+  "Response Body": "Willkommen zur Startseite!"
+}
+GET http://localhost:3000/data: {
+  "Network": {
+    "addresses": {
+      "local": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 58935
+      },
+      "remote": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 3000
+      }
+    }
+  },
+  "Request Headers": {
+    "user-agent": "PostmanRuntime/7.39.0",
+    "accept": "*/*",
+    "postman-token": "a5cae980-5b1d-4a32-bb4c-7e4dfebd017e",
+    "host": "localhost:3000",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive"
+  },
+  "Response Headers": {
+    "x-powered-by": "Express",
+    "content-type": "text/html; charset=utf-8",
+    "content-length": "20",
+    "etag": "W/\"14-sAc2E+8CF1ePY6ZWdnu6pqgqRA4\"",
+    "date": "Fri, 14 Jun 2024 19:42:58 GMT",
+    "connection": "keep-alive",
+    "keep-alive": "timeout=5"
+  },
+  "Response Body": "GET Anfrage zu /data"
+}
+POST http://localhost:3000/data: {
+  "Network": {
+    "addresses": {
+      "local": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 58935
+      },
+      "remote": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 3000
+      }
+    }
+  },
+  "Request Headers": {
+    "content-type": "application/json",
+    "user-agent": "PostmanRuntime/7.39.0",
+    "accept": "*/*",
+    "postman-token": "5eaba52e-6289-46fd-b1ad-33ad7694fdc2",
+    "host": "localhost:3000",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive",
+    "content-length": "28"
+  },
+  "Request Body": "{\r\n  \"data\": \"new data\"\r\n}\r\n",
+  "Response Headers": {
+    "x-powered-by": "Express",
+    "content-type": "text/html; charset=utf-8",
+    "content-length": "21",
+    "etag": "W/\"15-p0KhL4dtZhvdxR64PEdCz7fd/BY\"",
+    "date": "Fri, 14 Jun 2024 19:43:02 GMT",
+    "connection": "keep-alive",
+    "keep-alive": "timeout=5"
+  },
+  "Response Body": "POST Anfrage zu /data"
+}
+PUT http://localhost:3000/data: {
+  "Network": {
+    "addresses": {
+      "local": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 58935
+      },
+      "remote": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 3000
+      }
+    }
+  },
+  "Request Headers": {
+    "user-agent": "PostmanRuntime/7.39.0",
+    "accept": "*/*",
+    "postman-token": "ae9422c5-cabe-43a7-8483-3321668a41dd",
+    "host": "localhost:3000",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive",
+    "content-length": "0"
+  },
+  "Response Headers": {
+    "x-powered-by": "Express",
+    "content-type": "text/html; charset=utf-8",
+    "content-length": "20",
+    "etag": "W/\"14-2sW3LiprIl/TpwGhDwr5M3DahPw\"",
+    "date": "Fri, 14 Jun 2024 19:43:04 GMT",
+    "connection": "keep-alive",
+    "keep-alive": "timeout=5"
+  },
+  "Response Body": "PUT Anfrage zu /data"
+}
+DELETE http://localhost:3000/data: {
+  "Network": {
+    "addresses": {
+      "local": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 58935
+      },
+      "remote": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 3000
+      }
+    }
+  },
+  "Request Headers": {
+    "user-agent": "PostmanRuntime/7.39.0",
+    "accept": "*/*",
+    "postman-token": "24543ee0-732c-4156-8629-65dfa110b32e",
+    "host": "localhost:3000",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive"
+  },
+  "Response Headers": {
+    "x-powered-by": "Express",
+    "content-type": "text/html; charset=utf-8",
+    "content-length": "23",
+    "etag": "W/\"17-cZPaz7rUYO9+1PRPfv/uH7RSBtk\"",
+    "date": "Fri, 14 Jun 2024 19:43:07 GMT",
+    "connection": "keep-alive",
+    "keep-alive": "timeout=5"
+  },
+  "Response Body": "DELETE Anfrage zu /data"
+}
+GET http://localhost:3000/undefined: {
+  "Network": {
+    "addresses": {
+      "local": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 58935
+      },
+      "remote": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 3000
+      }
+    }
+  },
+  "Request Headers": {
+    "user-agent": "PostmanRuntime/7.39.0",
+    "accept": "*/*",
+    "postman-token": "b0916263-78e7-4d1f-a153-2ea5eecf5406",
+    "host": "localhost:3000",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive"
+  },
+  "Response Headers": {
+    "x-powered-by": "Express",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "40",
+    "etag": "W/\"28-oxQD5GafiumufMFu6vqHJxUVbEs\"",
+    "date": "Fri, 14 Jun 2024 19:43:10 GMT",
+    "connection": "keep-alive",
+    "keep-alive": "timeout=5"
+  },
+  "Response Body": "{\"status\":\"error\",\"message\":\"Not Found\"}"
+}
